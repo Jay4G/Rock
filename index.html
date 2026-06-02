@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Hyatt Experience</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
+</head>
+
+<body>
+
+    <div id="info02" class="uk-section uk-section-large uk-padding-remove-top"
+        uk-scrollspy="target: .animate; cls: uk-animation-slide-bottom-small; delay: 100; repeat: true;">
+
+        <div class="uk-container">
+
+            <!-- HEADER -->
+            <div class="uk-margin-large-bottom">
+                <h2 class="animate">
+                    The Ultimate Park <br class="uk-hidden@m">
+                    Hyatt <br class="uk-visible@m">
+                    Experience
+                </h2>
+            </div>
+
+            <!-- GRID: Image + Content -->
+            <div class="uk-grid uk-child-width-expand@m uk-flex-middle uk-margin-large-bottom" uk-grid uk-height-match="target: .col">
+
+                <!-- SLIDESHOW COLUMN -->
+                <div class="col">
+                    <div uk-slideshow="finite: false; min-height: 284; max-height: 682; autoplay: true; animation: fade;">
+                        <div class="uk-position-relative uk-visible-toggle uk-light">
+                            <ul class="uk-slideshow-items">
+                                <li><img src="silhouette-woman-practicing-yoga.jpg" alt="Yoga" uk-cover></li>
+                                <li><img src="magnific__upload__4560.png" alt="Park Hyatt" uk-cover></li>
+                                <li><img src="magnific__upload__4560.png" alt="Park Hyatt" uk-cover></li>
+                                <li><img src="magnific__upload__4560.png" alt="Park Hyatt" uk-cover></li>
+                                <li><img src="magnific__upload__4560.png" alt="Park Hyatt" uk-cover></li>
+                                <li><img src="magnific__upload__4560.png" alt="Park Hyatt" uk-cover></li>
+                            </ul>
+
+                            <!-- Navigation Arrows -->
+                            <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                        </div>
+
+                        <!-- Dot Indicators -->
+                        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+                    </div>
+                </div>
+
+                <!-- CONTENT COLUMN -->
+                <div class="col">
+                    <p class="animate uk-margin-medium-bottom">
+                        These completed residences offer immediate occupancy with Park Hyatt hospitality seamlessly integrated into every detail.
+                        Comprehensive à la carte services create the perfect balance of sophisticated hotel service and residential comfort.
+                    </p>
+                    <a class="uk-button uk-button-default animate uk-visible@l" href="#contact" uk-scroll>
+                        Make an enquiry
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- SERVICES SECTION -->
+            <div id="services-slider" class="uk-margin-large-top">
+                <h2 class="animate uk-margin-large-bottom">Key Features</h2>
+
+                <!-- Horizontal Scrollable Services List -->
+                <div uk-slider>
+                    <ul class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-1 uk-child-width-1-3@s">
+                        <li>
+                            <ul class="uk-list uk-list-divider">
+                                <li>Childcare service</li>
+                                <li>Event &amp; party planning</li>
+                                <li>Private residence lounge</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="uk-list uk-list-divider">
+                                <li>24/7 concierge and security</li>
+                                <li>Private butler and chef services</li>
+                                <li>In-residence dining and housekeeping</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="uk-list uk-list-divider">
+                                <li>Dry cleaning &amp; laundry</li>
+                                <li>Limousine service and valet parking</li>
+                                <li>Flower service</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
+
+</body>
+
+</html>
